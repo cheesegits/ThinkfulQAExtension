@@ -1,0 +1,88 @@
+/*-------------------- VIEW --------------------*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+}
+
+body h1 {
+	text-transform: uppercase;
+    font-size: 1.5em;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+}
+
+.dropdown {
+	width:400px;
+	margin:0 auto;
+}
+
+.dropdown .main-heading {
+	
+}
+
+ul {
+	list-style-type: none;
+	padding:0;
+}
+
+ul li {
+	padding:20px;
+}
+
+ul li .avatar-wrapper {
+	width:100px;
+	float:left;
+}
+
+ul li .avatar-wrapper span {
+	font-size:10px;
+}
+
+ul li img {
+	
+	height:75px;
+	width:75px;
+	padding:5px;
+	border:1px solid #999;
+	float:left;
+}
+
+ul li h3 {
+	margin:0;
+	text-transform: uppercase;
+	font-size:1em;
+	
+}
+
+ul li p {
+	
+	margin:10px 0;
+	padding:0
+	
+}
+
+ul li span {
+	
+}
+
+
+
+ul li button {
+	
+text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #444;
+    background: white;
+	
+}
+
+a {
+	text-decoration: none;
+    color: #444;
+}

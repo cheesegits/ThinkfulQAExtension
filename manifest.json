@@ -1,0 +1,23 @@
+/*-------------------- MANIFEST --------------------*/
+
+{
+    "manifest_version": 2,
+    "name": "Thinkful Event Reminders",
+    "description": "This extension enables Thinkful students to create reminders for Q&A sessions",
+    "version": "0.1",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Click for Q&A sessions"
+    },
+    "icons": { 
+        "16": "images/logo16.png",
+        "32": "images/logo32.png",
+        "48": "images/logo48.png",
+        "128": "images/logo128.png"
+    },
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+    "permissions": [
+        "tabs",
+        "https://www.thinkful.com/pysplash/api/open_sessions"
+    ]
+}
